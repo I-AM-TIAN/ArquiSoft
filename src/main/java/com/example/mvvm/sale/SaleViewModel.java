@@ -6,6 +6,7 @@ import com.example.mvvm.product.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Service
@@ -22,6 +23,7 @@ public class SaleViewModel {
     }
 
     public Sale saveSale(Sale sale) {
+        sale.setDate(LocalDate.now().toString()); // Establece la fecha actual
         calculateTotal(sale);
         return saleRepository.save(sale);
     }

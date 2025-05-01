@@ -1,5 +1,6 @@
 package com.example.mvvm.sale;
 
+import com.example.mvvm.client.Client;
 import com.example.mvvm.paymentmethods.PaymentMethod;
 import com.example.mvvm.product.Product;
 
@@ -20,6 +21,7 @@ public class Sale {
 
     private double discount;
     private double totalPrice;
+    private String date;
 
     @ManyToOne
     @JoinColumn(name = "product_id", nullable = false)
@@ -28,4 +30,8 @@ public class Sale {
     @ManyToOne
     @JoinColumn(name = "payment_method_id", nullable = false)
     private PaymentMethod paymentMethod;
+
+    @ManyToOne
+    @JoinColumn(name = "client_id", nullable = false)
+    private Client client;
 }
