@@ -1,7 +1,5 @@
-package com.example.mvvm.ViewModel;
+package com.example.mvvm.category;
 
-import com.example.mvvm.models.Category;
-import com.example.mvvm.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

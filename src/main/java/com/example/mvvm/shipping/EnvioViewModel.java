@@ -1,7 +1,5 @@
-package com.example.mvvm.ViewModel;
+package com.example.mvvm.shipping;
 
-import com.example.mvvm.models.Envio;
-import com.example.mvvm.repository.EnvioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

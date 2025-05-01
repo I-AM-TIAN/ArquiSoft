@@ -1,6 +1,5 @@
-package com.example.mvvm.repository;
+package com.example.mvvm.sale;
 
-import com.example.mvvm.models.Sale;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SaleRepository extends JpaRepository<Sale, Long> {

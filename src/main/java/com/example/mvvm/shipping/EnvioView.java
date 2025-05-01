@@ -1,7 +1,5 @@
-package com.example.mvvm.views;
+package com.example.mvvm.shipping;
 
-import com.example.mvvm.ViewModel.EnvioViewModel;
-import com.example.mvvm.models.Envio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

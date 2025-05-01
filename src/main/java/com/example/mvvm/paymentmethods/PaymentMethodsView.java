@@ -1,9 +1,6 @@
-package com.example.mvvm.views;
+package com.example.mvvm.paymentmethods;
 
-import com.example.mvvm.ViewModel.PaymentMethodViewModel;
-import com.example.mvvm.models.PaymentMethod;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

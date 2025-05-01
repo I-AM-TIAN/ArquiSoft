@@ -1,6 +1,5 @@
-package com.example.mvvm.repository;
+package com.example.mvvm.paymentmethods;
 
-import com.example.mvvm.models.PaymentMethod;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PaymentMethodRepository extends JpaRepository<PaymentMethod, Long> {

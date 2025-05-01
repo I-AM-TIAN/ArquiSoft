@@ -1,17 +1,10 @@
-package com.example.mvvm.views;
-
-import com.example.mvvm.ViewModel.ProductViewModel;
-import com.example.mvvm.models.Proveedor;
-import com.example.mvvm.models.Sale;
-
-import com.example.mvvm.ViewModel.ProveedorViewModel;
+package com.example.mvvm.supplier;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/proveedores")

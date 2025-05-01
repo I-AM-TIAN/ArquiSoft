@@ -1,4 +1,8 @@
-package com.example.mvvm.models;
+package com.example.mvvm.product;
+
+import com.example.mvvm.category.Category;
+import com.example.mvvm.shipping.Envio;
+import com.example.mvvm.supplier.Proveedor;
 
 import jakarta.persistence.*;
 import lombok.*;

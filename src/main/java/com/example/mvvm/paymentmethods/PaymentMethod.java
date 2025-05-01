@@ -1,19 +1,19 @@
-package com.example.mvvm.models;
-import lombok.*;
+package com.example.mvvm.paymentmethods;
 
+import lombok.*;
 import jakarta.persistence.*;
 
+
 @Entity
-@Table(name = "categorias")
+@Table(name = "payment_methods")
 @Getter
 @Setter
-@NoArgsConstructor
+@NoArgsConstructor 
 @AllArgsConstructor
-public class Category {
+public class PaymentMethod {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
-    private String description;
 }

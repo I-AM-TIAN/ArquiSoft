@@ -1,4 +1,4 @@
-package com.example.mvvm.models;
+package com.example.mvvm.shipping;
 
 import jakarta.persistence.*;
 import lombok.*;

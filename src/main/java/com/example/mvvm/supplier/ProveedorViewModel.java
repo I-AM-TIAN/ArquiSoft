@@ -1,13 +1,9 @@
-package com.example.mvvm.ViewModel;
+package com.example.mvvm.supplier;
 
-import com.example.mvvm.models.Product;
-import com.example.mvvm.models.Proveedor;
-import com.example.mvvm.repository.ProveedorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ProveedorViewModel {

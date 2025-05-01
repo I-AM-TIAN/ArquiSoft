@@ -1,6 +1,5 @@
-package com.example.mvvm.repository;
+package com.example.mvvm.supplier;
 
-import com.example.mvvm.models.Proveedor;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProveedorRepository extends JpaRepository<Proveedor, Long> {

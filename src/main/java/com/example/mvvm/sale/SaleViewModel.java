@@ -1,9 +1,8 @@
-package com.example.mvvm.ViewModel;
+package com.example.mvvm.sale;
 
-import com.example.mvvm.models.Product;
-import com.example.mvvm.models.Sale;
-import com.example.mvvm.repository.ProductRepository;
-import com.example.mvvm.repository.SaleRepository;
+import com.example.mvvm.product.Product;
+import com.example.mvvm.product.ProductRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,7 @@
-package com.example.mvvm.models;
+package com.example.mvvm.sale;
+
+import com.example.mvvm.paymentmethods.PaymentMethod;
+import com.example.mvvm.product.Product;
 
 import jakarta.persistence.*;
 import lombok.*;

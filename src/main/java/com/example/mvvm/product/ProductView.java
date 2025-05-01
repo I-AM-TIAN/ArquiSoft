@@ -1,7 +1,5 @@
-package com.example.mvvm.views;
+package com.example.mvvm.product;
 
-import com.example.mvvm.models.Product;
-import com.example.mvvm.ViewModel.ProductViewModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

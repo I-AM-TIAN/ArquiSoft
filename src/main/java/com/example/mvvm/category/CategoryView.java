@@ -1,7 +1,5 @@
-package com.example.mvvm.views;
+package com.example.mvvm.category;
 
-import com.example.mvvm.models.Category;
-import com.example.mvvm.ViewModel.CategoryViewModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

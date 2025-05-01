@@ -1,6 +1,5 @@
-package com.example.mvvm.repository;
+package com.example.mvvm.category;
 
-import com.example.mvvm.models.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CategoryRepository extends JpaRepository<Category, Long> {

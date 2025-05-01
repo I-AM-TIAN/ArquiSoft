@@ -1,10 +1,5 @@
-package com.example.mvvm.views;
-
-import com.example.mvvm.ViewModel.SaleViewModel;
-import com.example.mvvm.models.Product;
-import com.example.mvvm.models.Sale;
+package com.example.mvvm.sale;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

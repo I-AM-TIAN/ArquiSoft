@@ -1,7 +1,5 @@
-package com.example.mvvm.ViewModel;
+package com.example.mvvm.paymentmethods;
 
-import com.example.mvvm.models.PaymentMethod;
-import com.example.mvvm.repository.PaymentMethodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
